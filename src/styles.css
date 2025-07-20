@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  background-color: #ffffff;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+}
+
+nav button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 1rem 0;
+  border: none;
+  font-size: 1.25rem;
+  background-color: #bfb1a8;
+  cursor: pointer;
+  flex-grow: 1;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav button:hover, nav button:active {
+  background-color: #8b1e3f;
+  color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #f5ede4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+    color: #8b1e3f;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: 	#2e2e2e;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-top: 2rem;
+}
+
