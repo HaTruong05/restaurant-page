@@ -1,8 +1,8 @@
 import logo from './bull.png'
 
 export function renderHomePage() {
-    const contentSection = document.getElementById('content');
     for (let i=0; i<3; i++) {
+        const contentSection = document.getElementById('content');
         const container = document.createElement('div');
         container.classList.add('flex');
         if (i == 0) {

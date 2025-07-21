@@ -30,7 +30,7 @@ nav button {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-nav button:hover, nav button:active {
+nav button.active {
   background-color: #8b1e3f;
   color: white;
 }
@@ -51,6 +51,7 @@ h1 {
     font-size: 3rem;
     color: #8b1e3f;
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 h3 {
