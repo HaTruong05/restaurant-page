@@ -15,7 +15,7 @@ const tabMap = new Map([
   [aboutNav, renderAboutPage],
 ]);
 
-renderHomePage();
+// renderHomePage();
 
 tabMap.forEach((render, button) => {
     button.addEventListener('click', (e) => {

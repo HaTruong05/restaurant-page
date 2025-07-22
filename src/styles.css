@@ -59,7 +59,7 @@ h3 {
     padding-top: 2rem;
 }
 
-#menu {
+#menu, #about {
   background-color: #f8f5f2;
   padding: 1rem 3rem 1.5rem;
   color: #4a081c;
@@ -79,7 +79,6 @@ h4 {
 .dish {
   display: flex;
   justify-content: space-between;
-  flex: 2;
   align-items: start;
   padding: 0.5rem 0;
 }
